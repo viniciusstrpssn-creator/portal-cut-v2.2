@@ -722,7 +722,7 @@ export default function App() {
               <a href="#dossies" className="hover:text-black transition-colors">Dossiês</a>
               <a href="#shorts" className="hover:text-black transition-colors">Shorts</a>
               <a href="#multimidia" className="hover:text-black transition-colors">Multimídia</a>
-              <a href="#estaduais" className="hover:text-black transition-colors">27 Estaduais</a>
+              <a href="#estaduais" className="hover:text-black transition-colors">Estaduais</a>
               <a href="#servicos" className="hover:text-black transition-colors">Serviços</a>
             </nav>
           </div>
@@ -837,7 +837,7 @@ export default function App() {
           <a href="#dossies" onClick={() => setIsMenuOpen(false)} className="hover:text-cut-red">Dossiês</a>
           <a href="#shorts" onClick={() => setIsMenuOpen(false)} className="hover:text-cut-red">Shorts</a>
           <a href="#multimidia" onClick={() => setIsMenuOpen(false)} className="hover:text-cut-red">Multimídia</a>
-          <a href="#estaduais" onClick={() => setIsMenuOpen(false)} className="hover:text-cut-red">27 Estaduais</a>
+          <a href="#estaduais" onClick={() => setIsMenuOpen(false)} className="hover:text-cut-red">Estaduais</a>
           <a href="#servicos" onClick={() => setIsMenuOpen(false)} className="hover:text-cut-red">Serviços</a>
           <div className="pt-3 border-t border-white/10 flex items-center justify-between text-xs font-mono">
             <span>Tema: {theme === 'dark' ? 'Modo Escuro' : 'Modo Claro'}</span>
