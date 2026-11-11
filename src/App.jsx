@@ -679,14 +679,11 @@ export default function App() {
               href="https://www.dieese.org.br"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center shrink-0 hover:opacity-90 transition-opacity"
+              className="text-[10px] sm:text-[11px] font-mono text-gray-400 hover:text-white transition-colors shrink-0 flex items-center gap-1"
               title="Acessar portal DIEESE"
             >
-              <img
-                src="/images/parceiros/dieese_cropped.png"
-                alt="DIEESE"
-                className="h-4 sm:h-4.5 w-auto object-contain bg-white px-1.5 py-0.5 rounded shadow-sm"
-              />
+              <span className="text-gray-400">Fonte:</span>
+              <span className="font-bold text-gray-200 hover:text-cut-red transition-colors">DIEESE</span>
             </a>
             <span className="text-white/20 shrink-0">|</span>
             <div className="flex items-center gap-3.5 sm:gap-6 text-gray-300">
